@@ -1,6 +1,7 @@
 import './App.css';
 import Parse from 'parse/dist/parse.min.js';
-import { PersonComponent } from './PersonComponent';
+import { UserLogin } from './UserLogIn';
+
 
 //Paste below the Back4App Application ID AND the JavaScript KEY
 Parse.initialize("qTaQkg7YBJezEmaKXPYvdYRcPGURyddS7eMOJVoj", "pWrCh2513z0GfE3an4y4b1s7cjc57UDfPGIlqa2E");
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <PersonComponent />
+        <UserLogin />
       </header>
     </div>
   );
